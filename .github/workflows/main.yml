@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy to firebase
-        uses: w9jds@firebase-action@master
+        uses: w9jds/firebase-action@master
         with: 
           args: deploy
         env:
